@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HillTown</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="main">
+        <img src="./images/resort.jpg" alt="">
+        <div class="image-overlay"></div>
+        <div id="nav">
+            <div id="nav-up">
+                <div id="nav-left">
+                    <p><i class="fa-solid fa-phone"></i> +91 1234567890</p>
+                    <a href="mailto:abc@gmail.com"><i class="fa-regular fa-envelope"></i> abc@gmail.com</a>
+                </div>
+                <div id="nav-right">
+                    <a href="https://www.facebook.com" target="_self"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_self"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.google.com/" target="_self"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://www.linkedin.com" target="_self"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                </div>
+            </div>
+
+
+            <div id="nav-down">
+                <div id="logo">
+                    <img src="images/ResortLogoImg.png" alt="">
+                    <h3>HillTown <span>Resort</span></h3>
+                </div>
+                <div id="objects">
+                    <a href="#">Home</a>
+                    <a href="#">Rooms</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Blogs</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <i class="fa-solid fa-bars fa-2x" id="icon"></i>
+                    <button id="book">Book Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="center">
+            <div class="title">
+                <h1>Spend Quality <br>
+                    Holidays With Us</h1>
+            </div>
+            <div class="info">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, adipisci!</p>
+            </div>
+            <button class="reserve">Reserve Now</button>
+        </div>
+
+        <div id="footer">
+            <div id="inner">
+                <input type="date" class="date" id="arrival-date" onfocus="this.type='date'" onblur="this.type='text'"
+                    placeholder="ARRIVAL DATE">
+                <input type="date" class="date" id="departure-date" onfocus="this.type='date'" onblur="this.type='text'"
+                    placeholder="DEPARTURE DATE">
+
+                <input type="text" name="alult" id="txt1" placeholder="ADULTS" list="adults-list">
+                <datalist id="adults-list">
+                    <option value="18-25 years">
+                    <option value="20-30 years">
+                    <option value="30-40 years">
+                    <option value="40-50 years">
+                    <option value="50-59 years">
+                </datalist>
+
+                <input type="text" name="children" id="txt2" placeholder="CHILDRENS" list="children-list">
+                <datalist id="children-list">
+                    <option value="0-1 year">
+                    <option value="2-3 years">
+                    <option value="4-6 years">
+                    <option value="7-9 years">
+                    <option value="10-12 years">
+                    <option value="13-17 years">
+                </datalist>
+                <button>Check Availability</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
